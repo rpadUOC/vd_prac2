@@ -1,6 +1,7 @@
 dash==2.7.1
 pandas
 gunicorn
+matplotlib==3.5.3
 plotly==5.9.0
 dash-tools
 Ipython==7.31.1
