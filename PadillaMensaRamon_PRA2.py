@@ -13,7 +13,7 @@ from IPython import get_ipython
 # In[2]:
 
 
-get_ipython().system('pip install dash')
+#get_ipython().system('pip install dash')
 
 
 # In[2]:
