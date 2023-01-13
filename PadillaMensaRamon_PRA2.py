@@ -7,7 +7,7 @@
 import pandas as pd
 import plotly.express as px
 import itertools
-
+from IPython import get_ipython
 
 # In[2]:
 
