@@ -38,7 +38,7 @@ import matplotlib.pyplot as plt
 data1 = pd.read_csv('Fets_penals_coneguts__fets_coneguts_resolts_i_detencions_part1.csv')
 data2 = pd.read_csv('Fets_penals_coneguts__fets_coneguts_resolts_i_detencions_part2.csv')
 
-pd.concat([data1, data2], axis=0)
+df = pd.concat([data1, data2], axis=0)
 df.info()
 
 
