@@ -35,7 +35,7 @@ import matplotlib.pyplot as plt
 # In[108]:
 
 
-df = pd.read_csv('https://analisi.transparenciacatalunya.cat/api/views/qnyt-emjc/rows.csv?accessType=DOWNLOAD&sorting=true')
+df = pd.read_csv('https://www.dropbox.com/s/u0y0cc8tjglhobg/Fets_penals_coneguts__fets_coneguts_resolts_i_detencions%20%282%29.csv?dl=0')
 df.info()
 
 
