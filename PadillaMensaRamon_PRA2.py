@@ -35,7 +35,10 @@ import matplotlib.pyplot as plt
 # In[108]:
 
 
-df = pd.read_csv('https://www.dropbox.com/s/u0y0cc8tjglhobg/Fets_penals_coneguts__fets_coneguts_resolts_i_detencions%20%282%29.csv?dl=0')
+data1 = pd.read_csv('Fets_penals_coneguts__fets_coneguts_resolts_i_detencions_part1.csv')
+data2 = pd.read_csv('Fets_penals_coneguts__fets_coneguts_resolts_i_detencions_part2.csv')
+
+pd.concat([data1, data2], axis=0)
 df.info()
 
 
